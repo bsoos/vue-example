@@ -4,20 +4,20 @@ import VueI18n from 'vue-i18n';
 Vue.use(VueI18n);
 
 const messages = {
-    en: {
-        message: {
-            foo: 'Foo',
-        },
+  en: {
+    message: {
+      foo: 'Foo',
     },
-    hu: {
-        message: {
-            foo: 'Fúú',
-        },
+  },
+  hu: {
+    message: {
+      foo: 'Fúú',
     },
+  },
 };
 
 export default new VueI18n({
-    locale: 'en',
-    fallbackLocale: 'en',
-    messages,
+  locale: 'en',
+  fallbackLocale: 'en',
+  messages,
 });
